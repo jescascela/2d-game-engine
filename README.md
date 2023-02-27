@@ -5,4 +5,4 @@ Repositório destinado ao estudo da biblioteca SDL. O jogo em desenvolvimento é
 1. Instale a biblioteca SDL2 através do terminal utilizando comando ``sudo apt-get install libsdl2-dev``
 2. Instale a biblioteca de extensão do SDL utilizando ``sudo apt-get install libsdl2-image-dev``
 3. Clone o repositório
-4. Para compilar o projeto, utilize o GNU g++ executando o comando ``g++ main.cpp Game.cpp -o main `sdl2-config --cflags --libs` -lSDL2_image``
+4. Para compilar o projeto, utilize o GNU g++ executando o comando ``g++ main.cpp Game.cpp TextureManager.cpp -o main `sdl2-config --cflags --libs` -lSDL2_image``
