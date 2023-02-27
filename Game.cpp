@@ -71,7 +71,7 @@ void Game::update()
     cnt++;
     destR.h = 64;
     destR.w = 64;
-    // destR.x = cnt / 10;
+    destR.x = cnt;
     // std::cout << cnt << std::endl;
 }
 
